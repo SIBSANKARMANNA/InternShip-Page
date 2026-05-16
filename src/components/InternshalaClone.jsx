@@ -15,7 +15,7 @@ export default function InternshalaClone() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const res = await fetch("https://internshala.com/hiring/search");
+        const res = await fetch(import.meta.env.VITE_API_URL);
         const data = await res.json();
 
         const ids = data.internship_ids;

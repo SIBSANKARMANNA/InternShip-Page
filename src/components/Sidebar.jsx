@@ -71,10 +71,7 @@ const Sidebar = ({ internships, filters, onFilterChange, onReset }) => {
     onReset();
   };
 
-  // Handle apply and close
-  // const handleApply = () => {
-  //   setIsOpen(false);
-  // };
+  
 
   // Count active filters
   const activeFilterCount = 
@@ -126,10 +123,7 @@ const Sidebar = ({ internships, filters, onFilterChange, onReset }) => {
             <label className="filter-checkbox">
               <input
                 type="checkbox"
-                // checked={filters.matchPreferences || false}
-                // onChange={(e) =>
-                //   onFilterChange("matchPreferences", e.target.checked)
-                // }
+                
               />
               <span>As per my preferences</span>
             </label>
@@ -264,10 +258,6 @@ const Sidebar = ({ internships, filters, onFilterChange, onReset }) => {
             <label className="filter-checkbox">
               <input
                 type="checkbox"
-                // checked={filters.internshipsInMyCity || false}
-                // onChange={(e) =>
-                //   onFilterChange("internshipsInMyCity", e.target.checked)
-                // }
               />
               <span>Internships in my city</span>
             </label>
@@ -278,10 +268,6 @@ const Sidebar = ({ internships, filters, onFilterChange, onReset }) => {
             <label className="filter-checkbox">
               <input
                 type="checkbox"
-                // checked={filters.workFromHome}
-                // onChange={(e) =>
-                //   onFilterChange("workFromHome", e.target.checked)
-                // }
               />
               <span>Work from Home</span>
             </label>
@@ -292,8 +278,6 @@ const Sidebar = ({ internships, filters, onFilterChange, onReset }) => {
             <label className="filter-checkbox">
               <input
                 type="checkbox"
-                // checked={filters.partTime}
-                // onChange={(e) => onFilterChange("partTime", e.target.checked)}
               />
               <span>Part-time</span>
             </label>
@@ -451,9 +435,7 @@ const Sidebar = ({ internships, filters, onFilterChange, onReset }) => {
           <button className="btn-clear-all" onClick={handleClearAll}>
             Clear All
           </button>
-          {/* <button className="btn-apply" onClick={handleApply}>
-            Apply
-          </button> */}
+
         </div>
          {/* KEYWORD SEARCH */}
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Header.css";
 
 
 const ProfileDropdown = ({ isOpen, onMouseEnter, onMouseLeave, profile }) => {

@@ -46,7 +46,7 @@ const InternshipCard = ({ internship, onApply }) => {
         <div className="company-info">
           <h3 className="title">{internship.title}</h3>
           <p className="company">{getCompanyName()}</p>
-          <p className="profile">{getProfileName()}</p>
+          {/* <p className="profile">{getProfileName()}</p> */}
         </div>
         <div className="company-logo">
           {internship.company_logo ? (

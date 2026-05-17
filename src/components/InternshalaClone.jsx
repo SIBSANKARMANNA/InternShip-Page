@@ -71,15 +71,6 @@ export default function InternshalaClone() {
         }
       }
 
-      // // WORK FROM HOME FILTER
-      // if (filters.workFromHome && !internship.work_from_home) {
-      //   return false;
-      // }
-
-      // // PART TIME FILTER
-      // if (filters.partTime && !internship.part_time) {
-      //   return false;
-      // }
 
       // STIPEND FILTER - Check if stipend is greater than or equal to filter
       const stipendAmount = internship.stipend?.salaryValue1 || 0;
